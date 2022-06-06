@@ -164,7 +164,7 @@ const CustomDrawer = ({ selectedTab, setSelectedTab }) => {
 
   const scale = Animated.interpolateNode(progress, {
     inputRange: [0, 1],
-    outputRange: [1, 0.85],
+    outputRange: [1, 0.8],
   });
 
   const borderRadius = Animated.interpolateNode(progress, {
@@ -175,6 +175,7 @@ const CustomDrawer = ({ selectedTab, setSelectedTab }) => {
   const animatedStyle = {
     borderRadius,
     transform: [{ scale }],
+    overflow: "hidden",
   };
 
   return (

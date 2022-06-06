@@ -1,3 +1,6 @@
 import Header from "./Header";
+import HorizontalFoodCard from "./HorizontalFoodCard";
+import VerticalFoodCard from "./VerticalFoodCard";
+import IconButton from "./IconButton";
 
-export { Header };
+export { Header, HorizontalFoodCard, IconButton, VerticalFoodCard };
